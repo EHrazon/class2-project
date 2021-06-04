@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.box{  
+	background-color: seagreen;
+    width: 650px;
+    color: white;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 6px 8px 20px 0px black;
+    margin-top: 20px;
+
+}
+h1{
+	font-size: 45px;
+	font-weight: 900;
+}
+img{
+
+	max-width: 100%;
+    border: 10px solid yellow;
+
+}
+.box p{
+	font-size: 25px;
+    line-height: 1.5;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	padding: 50px;
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+.product{
+   padding: 15px;
+   flex-basis: 33.33%;
+}
+
+}
+button{
+	background-color: seagreen;
+	color: white;
+	font-size: 20px;
+	padding: 10px 40px;
+	border: 2px solid red;
+	border-radius: 15px;
+	cursor: pointer;
+
+}
+button:hover{
+	background-color: red;
+}
+.product-box{
+	box-shadow: 6px 8px 20px 0px black;
+	padding: 30px;
+	border-radius: 10px;
+}
+.extra{
+	padding: 20px;
+}
